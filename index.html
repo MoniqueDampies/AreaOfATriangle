@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Area of a triangle</title>
+  </head>
+  <body>
+      <div class="container">
+    <h1>Area of a Triangle</h1>
+    <label for="side1">
+      Enter the value of the first side of the triangle:
+    </label> <br>
+    <input type="number" id="side1" placeholder="Value of the 1st side" />
+    <br/><br/>
+
+    <label for="side2"> 
+    Enter the value of the second side of the triangle:
+    </label> <br>
+    <input type="number" id="side2" placeholder="Value of the 2nd side" />
+    <br/><br/>
+
+    <label for="side3"> 
+    Enter the value of the third side of the triangle:
+    </label> <br>
+    <input type="number" id="side3" placeholder="Value of the 3rd side" />
+    <br/><br/>
+
+    <button onclick="Area()">Calculate the area</button>
+
+    <p>Area of Triangle: <span id="display"></span></p></div>
+    <script src="./code.js">
+    </script>
+  </body>
+</html>

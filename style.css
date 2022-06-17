@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    border: none; 
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+    font-weight: 500;
+    font-size: large; 
+    background-color: #f08080;
+  }
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #d87373, #ff8989);
+    box-shadow:  6px 6px 12px #d16f6f,
+                 -6px -6px 12px #ff9191;
+}
+
+#side1{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+    box-shadow:  6px 6px 12px #d16f6f,
+                 -6px -6px 12px #ff9191;
+}
+#side2{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+    box-shadow:  6px 6px 12px #d16f6f,
+                 -6px -6px 12px #ff9191;
+}
+#side3{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+    box-shadow:  6px 6px 12px #d16f6f,
+                 -6px -6px 12px #ff9191;
+}
+
+button{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+    box-shadow:  6px 6px 12px #d16f6f,
+                 -6px -6px 12px #ff9191;
+    color: gray;
+}
